@@ -1,0 +1,70 @@
+ h1
+ {
+    color: rgb(0, 12, 13);
+    font-family:Tiny5; 
+   
+ }
+
+ h2{ 
+    font-family:Honk;
+    color: rgb(98, 125, 54);
+    
+ }
+ td{
+    font-family:Tiny5 ; 
+
+ }
+ 
+ #p2{
+    font-family:Smooch Sans ; 
+ }
+
+ #p1{
+    font-family:Tiny5  ; 
+ }
+  #p3{
+    font-family:Oi ; 
+ }
+ footer{
+    color: rgb(6, 50, 10);
+ }
+ body{
+    background: linear-gradient( to top,rgb(9, 121, 9) ,lightgreen );
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+ } 
+ table{
+    margin: auto;
+ }
+form{
+    border-style: ridge;
+    border-width: 10px;
+    border-color: rgb(1, 62, 0);
+    border-radius: 5px;
+     display: inline-block;
+    padding: 20px;
+} 
+button:hover { background-color: rgb(0, 220, 0);
+    animation:3s linear 0s infinite running myOpacity ;
+
+}
+button:active{ 
+    background-color: rgb(91, 196, 61);
+}     
+ 
+button { 
+    background-color: rgb(114, 208, 21);
+    
+
+}
+@keyframes myOpacity{ 
+    50%{opacity: 0;}
+
+}
+@media(max-width:24xp){
+    body{
+    flex-wrap: wrap;
+    } 
+    
+}
